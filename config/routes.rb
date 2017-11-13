@@ -1,3 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  namespace :api do
+    resources :users do
+      resources :workout_sessions, only: [:index, :show, :create] do
+        resources :workout_types, only: [:index, :show, :create]
+      end
+    end
+  end
 end
+

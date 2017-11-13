@@ -1,0 +1,2 @@
+class Lowerbody < ApplicationRecord
+end

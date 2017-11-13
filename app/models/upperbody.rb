@@ -1,0 +1,2 @@
+class Upperbody < ApplicationRecord
+end

@@ -1,0 +1,2 @@
+class LegsAndBack < ApplicationRecord
+end
