@@ -3,6 +3,10 @@ import styled from 'styled-components'
 
 const FooterStyles = styled.div`
   overflow: hidden;
+<<<<<<< HEAD
+=======
+  position: fixed;
+>>>>>>> 24329e73383ef551052f807b5760dde74d081c03
   left: 0;
   bottom: 0;
   width: 100%;
