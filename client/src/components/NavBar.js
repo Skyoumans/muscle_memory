@@ -1,9 +1,5 @@
 import React from 'react'
-<<<<<<< HEAD
-import { Link, Router } from 'react-router-dom'
-=======
 import { Link } from 'react-router-dom'
->>>>>>> 24329e73383ef551052f807b5760dde74d081c03
 import styled from 'styled-components'
 
 const NavBarBG = styled.div`
@@ -40,30 +36,16 @@ const NavBarLink = styled.div`
 
 const NavBar = () => {
   return (
-<<<<<<< HEAD
-
-    <NavBarBG>
-      <NavBarLink>
-        <a href = '/'><h1>Muscle Memory</h1></a>
-        <GroupLinks>
-        <Link to="/start"><h1>Log In</h1></Link>
-        <Link to="/start"><h1>Sign Up</h1></Link>
-=======
     <NavBarBG>
       <NavBarLink>
         <Link to="/">Muscle Memory</Link>
         <GroupLinks>
-        <Link to="/signup">Sign Up</Link>
-        <Link to="/login">Log In</Link>          
->>>>>>> 24329e73383ef551052f807b5760dde74d081c03
+        <Link to="/start">Sign Up</Link>
+        <Link to="/start">Log In</Link>          
         </GroupLinks>
       </NavBarLink>
     </NavBarBG>
   )
 }
 
-<<<<<<< HEAD
 export default NavBar
-=======
-export default NavBar
->>>>>>> 24329e73383ef551052f807b5760dde74d081c03

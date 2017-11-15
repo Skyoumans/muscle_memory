@@ -1,15 +1,3 @@
-<<<<<<< HEAD
-import React from 'react';
-import axios from 'axios'
-
-const StartupLinks = () => {
-  return (
-    <div>
-      
-    </div>
-  );
-};
-=======
 import React, { Component } from 'react';
 import axios from 'axios'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
@@ -41,6 +29,5 @@ class StartupLinks extends Component {
     );
   }
 }
->>>>>>> 24329e73383ef551052f807b5760dde74d081c03
 
 export default StartupLinks;
