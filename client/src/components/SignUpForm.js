@@ -3,6 +3,10 @@ import axios from 'axios'
 import { Redirect } from 'react-router'
 import styled from 'styled-components'
 
+
+const FormWrapperStyle = styled.form`
+
+`
 class SignUpForm extends Component {
 
   state = {
@@ -44,10 +48,8 @@ class SignUpForm extends Component {
     }
     return (
       <div>
-        <div>
-          <h1>Sign Up</h1>        
-        </div>
-        <form onSubmit={this.handleSubmit}>
+        <FormWrapperStyle onSubmit={this.handleSubmit}>
+        <h1>Sign Up</h1>
           <div>
             <input onChange={this.handleChange} name='name' type='text' value={this.state.newUser.name} placeholder="Name" />
           </div>
@@ -79,7 +81,7 @@ class SignUpForm extends Component {
             <input onChange={this.handleChange} name='currentwaistsize' type='number' value={this.state.newUser.currentwaistsize} placeholder="Current Waist Size(in inches)" />
           </div>
           <button>Sign Up</button>
-        </form>
+        </FormWrapperStyle>
       </div>
     );
   }

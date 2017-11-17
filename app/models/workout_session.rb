@@ -1,3 +1,4 @@
 class WorkoutSession < ApplicationRecord
-  has_many :workout_types belongs_to :users
+  has_many :workout_types 
+  belongs_to :users
 end

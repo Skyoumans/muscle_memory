@@ -1,17 +1,22 @@
 import React from 'react';
 import SignUpForm from './SignUpForm'
 import LoginForm from './LoginForm'
+import styled from 'styled-components'
+
+const FormDirection = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+`
 
 const LoginSignUpPage = () => {
   return (
-    <div>
-      <div>
+    <FormDirection>
+
       <SignUpForm />
-      </div>
-      <div>
       <LoginForm />
-      </div>
-    </div>
+
+    </FormDirection>
   );
 };
 
