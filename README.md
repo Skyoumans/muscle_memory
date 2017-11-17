@@ -3,7 +3,7 @@
 
 ## About
 
-    This is Muscle Memory, my final project application 
+This is Muscle Memory, my final project application 
 
 designed to assist on your journey to weight loss or 
 
@@ -21,7 +21,7 @@ your own!
 
 ## Motivation
 
-    This is an application I have been looking for online
+This is an application I have been looking for online
 
 and I've never found one before.  Having this app 
 
@@ -33,7 +33,7 @@ motivated in the process.
 
 ## Trials and Tribulations
 
-    I am ashamed to say that this project really made me 
+I am ashamed to say that this project really made me 
   
 question myself as a developer. It was my most 
   
@@ -73,11 +73,11 @@ week.
 
   Burns, for getting me back on track and re-affirming 
   
-    that I know what I am doing. 
+  that I know what I am doing. 
   
   Jayme, Grant, Tory, James, and Brandon, for helping me 
   
-    when I had issues.
+  when I had issues.
 
 
 
