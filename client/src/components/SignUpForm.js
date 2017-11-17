@@ -5,9 +5,9 @@ import styled from 'styled-components'
 
 
 const FormWrapperStyle = styled.form`
-input {
-  width: 150%
-}
+  h1 {
+    color: yellow;
+  }
 
 `
 class SignUpForm extends Component {
@@ -50,8 +50,8 @@ class SignUpForm extends Component {
       return <Redirect to={`/users`} />
     }
     return (
-      <div>
-        <FormWrapperStyle onSubmit={this.handleSubmit}>
+      <FormWrapperStyle>
+        <div onSubmit={this.handleSubmit}>
         <h1>Sign Up</h1>
           <div>
             <input onChange={this.handleChange} name='name' type='text' value={this.state.newUser.name} placeholder="Name" />
@@ -84,8 +84,8 @@ class SignUpForm extends Component {
             <input onChange={this.handleChange} name='currentwaistsize' type='number' value={this.state.newUser.currentwaistsize} placeholder="Current Waist Size(in inches)" />
           </div>
           <button>Sign Up</button>
-        </FormWrapperStyle>
-      </div>
+        </div>
+      </FormWrapperStyle>
     );
   }
 }

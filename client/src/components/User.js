@@ -31,8 +31,8 @@ class User extends Component {
 
   handleUpdate = async () => {
     const { id } = this.props.match.params
-    const res = await axios.patch(`/api/users/${this.state.userId}`, {
-    user: this.state.post
+    const res = await axios.patch(`/api/users/${this.state.id}`, {
+    user: this.state.user
   })
     console.log(res)
 

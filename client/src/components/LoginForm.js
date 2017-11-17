@@ -3,6 +3,11 @@ import { Redirect } from 'react-router-dom';
 import axios from 'axios';
 import styled from 'styled-components'
 
+const FormWrapperStyle = styled.div`
+h1 {
+  color: yellow;
+}
+`
 
 class SignUp extends Component {
  constructor(){
@@ -35,7 +40,7 @@ signIn = async (event) => {
      return <Redirect to="/users" />
    }
    return (
-     <div>
+     <FormWrapperStyle>
        <form onSubmit={this.signIn}>
        <h1>Log In</h1>
          <div>
@@ -46,7 +51,7 @@ signIn = async (event) => {
          </div>
          <button>Log In</button>
        </form>
-     </div>
+     </FormWrapperStyle>
    );
  }
 }
