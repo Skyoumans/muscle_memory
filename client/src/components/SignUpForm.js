@@ -5,6 +5,9 @@ import styled from 'styled-components'
 
 
 const FormWrapperStyle = styled.form`
+input {
+  width: 150%
+}
 
 `
 class SignUpForm extends Component {
