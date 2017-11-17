@@ -8,6 +8,7 @@ import LoginSignUpPage from './components/LoginSignUpPage'
 import UserList from './components/UserList'
 import Footer from './components/Footer'
 import NavBar from './components/NavBar'
+import User from './components/User'
 
 class App extends Component {
   state = {
@@ -32,6 +33,7 @@ class App extends Component {
             <Route exact path='/' component={HomePage} />
             <Route exact path='/start' component={LoginSignUpPage} />
             <Route exact path='/users' component={UserList} />
+            <Route exact path='/users/:userId' component = {User} />
           </Switch>
         </div>
       </Router>

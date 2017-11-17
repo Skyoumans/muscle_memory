@@ -30,7 +30,7 @@ signIn = async (event) => {
 
  render() {
    if (this.state.redirect){
-     return <Redirect to="/" />
+     return <Redirect to="/users" />
    }
    return (
      <div>
